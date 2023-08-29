@@ -1,0 +1,110 @@
+body{
+  background-color: darkgrey;
+}
+
+.form1{
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 30px;
+
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.enviar{
+  background-color: rgb(69, 65, 182);
+  cursor: pointer;
+  font-size: large;
+}
+
+header{
+  height: 100px;
+  width: fit-content;
+}
+
+input{
+
+  padding: 10px;
+  box-sizing: content-box;
+  margin: 10px;
+  border-radius: 10px;
+}
+input:hover{
+  background-color: rgb(210, 210, 223);
+}
+
+.registro{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  max-width:  500px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 3px #333333;
+}
+
+.pageHeader{
+  width: auto;
+  background-color: rgb(114, 114, 195);
+  max-height: 100px;
+}
+nav{
+  height: 50px;
+  vertical-align: middle;
+}
+.NavDiv{
+  height: 50px;
+  background-color: rgb(149, 25, 190);
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.NavDiv > nav > ul>li{
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.NavDiv > nav > ul>li>a{
+  text-decoration: none;
+  height: 100%;
+}
+
+.NavDiv > nav > ul> li:hover{
+  background-color: aliceblue;
+  height: 50px;
+  cursor: pointer;
+  zoom: 1.05;
+  transition-duration: 60ms;
+  vertical-align: auto;
+}
+
+
+a{
+  color: black;
+}
+
+.taskBar > ul{
+   display: block;
+   list-style-type: disc;
+}
+header>h1{
+  padding: 30px;
+}
